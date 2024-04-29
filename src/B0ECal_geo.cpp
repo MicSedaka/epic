@@ -58,10 +58,10 @@ static Ref_t createDetector(Detector& desc, xml_h e, SensitiveDetector sens) {
     addModuleNumbers(sector, nmod);
   }
 
-  for (xml_coll_t disk(plm, _Unicode(disk)); disk; ++disk) {
-    auto [sector, nmod] = ip6::geo::add_disk(build_module, desc, detVol, disk, sens, sector_id++);
-    addModuleNumbers(sector, nmod);
-  }
+  //for (xml_coll_t disk(plm, _Unicode(disk)); disk; ++disk) {
+  //  auto [sector, nmod] = ip6::geo::add_disk(build_module, desc, detVol, disk, sens, sector_id++);
+  //  addModuleNumbers(sector, nmod);
+  //}
 
   // position and rotation of parent volume
   Volume motherVol = desc.pickMotherVolume(det);
