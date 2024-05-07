@@ -13,13 +13,13 @@
     <constant name="B0ECal_IP_distance" value="688*cm"/>
     <constant name="B0ECal_xcenter" value="B0ECal_IP_distance*sin(ionCrossingAngle)"/>
     <constant name="B0ECal_zcenter" value="B0ECal_IP_distance*cos(ionCrossingAngle)"/>
-    <constant name="B0ECal_packman_rmin" value="3.7*cm"/>
-    <constant name="B0ECal_packman_small_rmax" value="8*cm"/>
-    <constant name="B0ECal_packman_large_rmax" value="15*cm"/>
+    <constant name="B0ECal_packman_rmin" value="0.0*cm"/>
+    <constant name="B0ECal_packman_small_rmax" value="0.0*cm"/>
+    <constant name="B0ECal_packman_large_rmax" value="0.0*cm"/>
     <constant name="B0ECal_packman_large_phimin" value="-120*deg"/>
     <constant name="B0ECal_packman_large_phimax" value="120*deg"/>
-    <constant name="B0ECal_r_envelopeclearance" value="1*mm+(B0ECal_CrystalModule_width+2*B0ECal_CrystalModule_wrap)*sqrt(2)"/>
-    <constant name="B0ECal_phi_envelopeclearance" value="(3.0*(B0ECal_CrystalModule_width+2*B0ECal_CrystalModule_wrap)*sqrt(2))/B0ECal_packman_small_rmax"/>
+    <constant name="B0ECal_r_envelopeclearance" value="0.0*cm"/>
+    <constant name="B0ECal_phi_envelopeclearance" value="0.0*cm"/>
 
     <constant name="x1" value="-10.5*cm"/>
     <constant name="x2" value="x1+B0ECal_CrystalModule_width+2*B0ECal_CrystalModule_wrap"/>
